@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+a {
+  cursor: pointer !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.form-field {
+  width: 100% !important;
+}
+
+.max__width {
+  max-width: 1550px;
+}
+
+.mat-spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1000px !important;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
