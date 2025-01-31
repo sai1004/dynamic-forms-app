@@ -3,15 +3,15 @@
 @include mat.core();
 
 html {
-  @include mat.theme(
-    (
-      color: (
-        primary: mat.$violet-palette,
-        tertiary: mat.$orange-palette,
-        theme-type: light,
-      ),
-      typography: Roboto,
-      density: 0,
-    )
-  );
+    @include mat.theme(
+        (
+            color: (
+                primary: mat.$violet-palette,
+                tertiary: mat.$orange-palette,
+                theme-type: light,
+            ),
+            typography: Roboto,
+            density: 0,
+        )
+    );
 }
