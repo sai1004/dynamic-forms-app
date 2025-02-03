@@ -3,8 +3,14 @@
         <span>Forms App</span>
     </mat-toolbar>
     <mat-tab-group>
-        <mat-tab label="Create Form"> </mat-tab>
-        <mat-tab label="Submit Form"> </mat-tab>
-        <mat-tab label="Response"> </mat-tab>
+        <mat-tab label="Create Form">
+            <app-create-form></app-create-form>
+        </mat-tab>
+        <mat-tab label="Submit Form">
+            <app-submit-form></app-submit-form>
+        </mat-tab>
+        <mat-tab label="Response">
+            <app-form-response></app-form-response>
+        </mat-tab>
     </mat-tab-group>
 </main>
